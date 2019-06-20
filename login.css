@@ -1,0 +1,67 @@
+body{
+	margin: 0px;
+	padding: 0px;
+}
+.navbar{
+	background: #cc76ca;
+	width: 100%;
+	margin: 0px;
+	display: block;
+	display: inline;
+	float: right;
+}
+#logo{
+	float: left;
+	font-size: 20px;
+	text-decoration: none;
+	margin-right:50px;
+	padding: 20px;
+	text-align: left;
+	color: white;
+	margin-right: 30px;
+}
+#rlink{
+	float: right;
+	font-size: 20px;
+	text-decoration: none;
+	margin-left: 50px;
+	padding: 20px;
+	text-align: left;
+	color: white;
+	margin-right: 30px;
+}
+.login-page{
+	padding-top:50px;
+}
+.login-contents{
+	background:#f2ce93;
+	width:350px;
+	height: 60%;
+	padding: 20px; 
+}
+.login-img{
+	height: 100px;
+	width: 100px;
+	border-radius: 50px;
+
+}
+.input-control{
+	font-size: 15px;
+	border-top: none;
+	border-right: none;
+	border-left: none;
+	border-radius: 10px;
+	opacity: 0.9;
+	background:#f2ce93; 
+	padding: 10px;
+	text-align: center;
+}
+.btn-submit{
+	color: white;
+	border: none;
+	background: #d84ce0;
+	font-size: 20px;
+	padding: 10px;
+	border-radius: 10px;
+	text-align: center;
+}
