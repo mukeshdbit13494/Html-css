@@ -12,15 +12,20 @@
 	<center>
 		<div class="login-page">
 			<h2>Login Here</h2>
-			<div class="login-contents">
+			<div class="login-contents" id="content">
+				<button id="cross-btn" onclick="myFunction()"><b>X</b></button>
 		    <img src="user1.png" class="login-img">
 		    <form>
 			<input type="text" class="input-control" name="username" placeholder="Username"><br><br>
 			<input type="password" class="input-control name="password" placeholder="Password"><br><br>
-			<input type="submit" class="btn-submit" value="LOGIN">
+			<input type="submit" id="btn-submit" value="LOGIN">
+
 		</form>
 	</div>
+	<button id="btn-login" onclick="myFunction()">LOGIN</button>
 		</div>
+		
 	</center>
 </body>
+<script type="text/javascript" src="login.js"></script>
 </html>

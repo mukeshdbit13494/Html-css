@@ -12,25 +12,76 @@
 	<center>
 		<div class="register-page">
 			<div class="acoount-info">
-		    <h3>Account Info</h3>
-		    <form>
-			<input type="text" class="input-control" name="name" placeholder="Name">
-			<input type="password" class="input-control" name="password" placeholder="Password"><br><br>
-			<input type="text" class="input-control" name="email" placeholder="Email">
-			<input type="password" class="input-control" name="confirm-password" placeholder="Confirm-Password"><br><br>
-		</form>
+		    <h3></h3>
+		    <fieldset id="fieldset1">
+		    	<legend id="legend">Account Info</legend>
+		    	<form >
+		    		<table cellpadding="5px">
+		    			<tr>
+		    				<td><label for="name">Name</label><br>
+			                 <input type="text" class="register-input-control" name="name" id="name">
+			                </td>
+		    				<td> 
+		    					<label for="password">Password</label><br>
+			                    <input type="password" class="register-input-control" name="password" id="password">
+		    				</td>
+		    			</tr>
+		    			<tr>
+		    				<td>
+		    					<label for="email">Email</label><br>
+			                    <input type="text" class="register-input-control" name="email" id="email">
+		    				</td>
+		    				<td>
+		    					<label for="confirm-password">Confirm-Password</label><br>
+				                <input type="password" class="register-input-control" name="confirm-password" id="confirm-password" >
+		    				</td>
+		    			</tr>
+		    		</table> 
+		    		<input type="button" value="SUBMIT" onclick="personalInfo()" id="btn-submit">
+		        </form>
+		    </fieldset>
 	</div>
 	<div class="personal-info">
-		    <h3>Personal Info</h3>
-		    <form>
-			<input type="data" class="input-control" name="dob" placeholder="Data of Birth">
-			<input type="text" class="input-control" name="address" placeholder="Address"><br><br>
-			<input type="text" class="input-control" name="father" placeholder="Father Name">
-			<input type="text" class="input-control" name="mobile" placeholder="Mobile Number"><br><br>
-			<input type="submit" class="btn-submit" value="submit">
-		</form>
+		    <fieldset id="fieldset2">
+		    	<legend id="legend">Personal Info</legend>
+		        <form id="personal-info-form">
+		    		<table cellpadding="5px">
+		    			<tr>
+		    				<td><label for="dob">Date of birth</label><br>
+			                 <input type="date" class="register-input-control" name="dob" id="dob">
+			                </td>
+		    				<td> 
+		    					<label for="address">Address</label><br>
+			                    <input type="text" class="register-input-control" name="address" id="address">
+		    				</td>
+		    			</tr>
+		    			<tr>
+		    				<td>
+		    					<label for="mobile">Mobile No.</label><br>
+			                    <input type="text" class="register-input-control" name="mobile" id="mobile">
+		    				</td>
+		    				<td>
+		    					<label for="father">Father's Name</label><br>
+				                <input type="text" class="register-input-control" name="father" id="father" >
+		    				</td>
+		    			</tr>
+		    			<tr>
+		    				<td>
+		    					<label for="company">Company Name</label><br>
+				                <input type="text" class="register-input-control" name="company" id="company" >
+		    				</td>
+		    				<td>
+		    					<label for="company-address">Company Address</label><br>
+				                <input type="text" class="register-input-control" name="company-address" id="company-address" >
+		    				</td>
+		    			</tr>
+		    		</table> 
+		    		<input type="button" value="SUBMIT" id="btn-submit">
+		        </form>
+		    </fieldset>
 	</div>
 		</div>
 	</center>
 </body>
+<script type="text/javascript" src="register.js"></script>
 </html>

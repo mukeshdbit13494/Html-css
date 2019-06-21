@@ -33,7 +33,13 @@ body{
 .login-page{
 	padding-top:50px;
 }
-.login-contents{
+#cross-btn{
+	float: right;
+	text-align: top;
+	background: #f2ce93;
+	border: none;
+}
+#content{
 	background:#f2ce93;
 	width:350px;
 	height: 60%;
@@ -56,12 +62,52 @@ body{
 	padding: 10px;
 	text-align: center;
 }
-.btn-submit{
+#btn-submit{
 	color: white;
 	border: none;
 	background: #d84ce0;
 	font-size: 20px;
 	padding: 10px;
 	border-radius: 10px;
+	text-align: center;
+}
+#btn-login{
+	color: white;
+	border: none;
+	background: #d84ce0;
+	font-size: 20px;
+	padding: 10px;
+	margin-top: 20%;
+	border-radius: 10px;
+	text-align: center;
+}
+.register-page{
+	padding-top: 20px;
+}
+#fieldset1{
+	background:#b8ecfc; 
+	margin-top:20px; 
+	width: 50%;
+	padding: 10px;
+}
+#fieldset2{
+	background:#b8ecfc;
+	margin-top: 20px; 
+	width: 50%;
+	padding: 10px;
+}
+#legend{
+	font-size: 20px;
+	font-weight: bold;
+}
+.register-input-control{
+	font-size: 15px;
+	border-top: none;
+	border-right: none;
+	border-left: none;
+	border-radius: 10px;
+	opacity: 0.9;
+	background:#ffffff; 
+	padding: 10px;
 	text-align: center;
 }
