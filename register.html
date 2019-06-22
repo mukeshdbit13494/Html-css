@@ -1,22 +1,23 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Login</title>
+	<title>Register</title>
 	<link rel="stylesheet" type="text/css" href="login.css">
 </head>
 <body>
 	<div class="navbar">
-	    <a href="#" id="logo">Logo</a>
+	    <a href="login.html" id="logo">Logo</a>
 	    <a href="login.html" id="rlink">Login</a>	
 	</div>
 	<center>
-		<div class="register-page">
-			<div class="acoount-info">
-		    <h3></h3>
-		    <fieldset id="fieldset1">
-		    	<legend id="legend">Account Info</legend>
-		    	<form >
-		    		<table cellpadding="5px">
+			<div class="register-page">
+				<div class="info-collapse" onclick="fieldset1()">
+			          <center ><h2  style="margin:0px;padding:10px">Account Info</h2></center>
+			      </div>
+				<div class="acoount-info">
+			           <div id="fieldset1">
+		    	   <form >
+		    		<table cellpadding="10px">
 		    			<tr>
 		    				<td><label for="name">Name</label><br>
 			                 <input type="text" class="register-input-control" name="name" id="name">
@@ -37,15 +38,18 @@
 		    				</td>
 		    			</tr>
 		    		</table> 
-		    		<input type="button" value="SUBMIT" onclick="personalInfo()" id="btn-submit">
-		        </form>
-		    </fieldset>
-	</div>
-	<div class="personal-info">
-		    <fieldset id="fieldset2">
-		    	<legend id="legend">Personal Info</legend>
+		    		<input type="button" value="NEXT" onclick="next()" id="btn-submit">
+		                  </form>
+		               </div>
+		              </div>
+				</div>
+				<div class="personal-info">
+		           <div class="info-collapse" onclick="fieldset2()">
+			         <center><h2 style="margin: 0px;padding: 10px">Personal Info</h2></center>
+			       </div>
+		          <div id="fieldset2">
 		        <form id="personal-info-form">
-		    		<table cellpadding="5px">
+		    		<table cellpadding="10px">
 		    			<tr>
 		    				<td><label for="dob">Date of birth</label><br>
 			                 <input type="date" class="register-input-control" name="dob" id="dob">
@@ -78,10 +82,9 @@
 		    		</table> 
 		    		<input type="button" value="SUBMIT" id="btn-submit">
 		        </form>
-		    </fieldset>
-	</div>
-		</div>
+		          </div>
+			    </div>
 	</center>
 </body>
-<script type="text/javascript" src="register.js"></script>
+<script type="text/javascript" src="navRegister.js"></script>
 </html>

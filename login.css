@@ -3,11 +3,11 @@ body{
 	padding: 0px;
 }
 .navbar{
-	background: #cc76ca;
+	background: #d84ce0;
 	width: 100%;
-	margin: 0px;
+	margin-top: 0px;
 	display: block;
-	display: inline;
+	
 	float: right;
 }
 #logo{
@@ -38,6 +38,7 @@ body{
 	text-align: top;
 	background: #f2ce93;
 	border: none;
+	z-index: -1;
 }
 #content{
 	background:#f2ce93;
@@ -82,23 +83,29 @@ body{
 	text-align: center;
 }
 .register-page{
-	padding-top: 20px;
+	padding-top:70px;
+}
+.account-info{
+	margin-top: 0px;
+}
+.info-collapse{
+	width: 50%;
+	margin-top: 3px;
+	height: auto;
+	color: white;
+	background: #d84ce0;
 }
 #fieldset1{
+	margin: 0px;
+	padding:0px;
 	background:#b8ecfc; 
-	margin-top:20px; 
 	width: 50%;
-	padding: 10px;
 }
 #fieldset2{
-	background:#b8ecfc;
-	margin-top: 20px; 
+	margin: 0px;
+	padding: 0px;
+	background:#b8ecfc; 
 	width: 50%;
-	padding: 10px;
-}
-#legend{
-	font-size: 20px;
-	font-weight: bold;
 }
 .register-input-control{
 	font-size: 15px;
